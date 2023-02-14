@@ -1,0 +1,137 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(des.png);
+    padding: 0px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: lightslategrey;
+}
+.wrapped{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-size: 20px;
+    padding: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #222;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.nama{
+    display:flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    padding: 10px;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navigation >li{
+    list-style: none;
+    padding: 16px;
+}
+.navigation >li >a{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.navigation >li>a:hover{
+    color: crimson;
+    transition: all.3s ease-in-out;
+    -webkit-transition: all.3s ease-in-out;
+    -moz-transition: all.3s ease-in-out;
+    -ms-transition: all.3s ease-in-out;
+    -o-transition: all.3s ease-in-out;
+}
+.navigation >li>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.navigation >li>img:hover{
+    width: 65px;
+    height: 65px;
+    border-radius: 65px;
+    -webkit-border-radius: 65px;
+    -moz-border-radius: 65px;
+    -ms-border-radius: 65px;
+    -o-border-radius: 65px;
+}
+.active{
+    background-color: crimson;
+    color: white;
+    padding: 15px;
+}
+.active:hover{
+    color: white !important;
+}
+
+#contact{
+    background-color: #faeee7;
+    padding: 20px 0px 20px 0px;
+}
+.footer{
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.footer-section{
+    width: 25%;
+    margin: 0 auto;
+}
+h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color:#33272a;
+    width: 100%;
+    line-height: 50px;
+}
+.footer-section>p{
+    color:#594a4e;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: #ff8ba7;
+    height: auto;
+    width: 100vw;
+    color: #fff;
+}
+.bottom{
+    background-color: #ff8ba7;
+    width: 100vw;
+    padding: 6px 0;
+    text-align: center;
+}
+.bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+.bottom span{
+    color:#FFFFFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}

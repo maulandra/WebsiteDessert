@@ -10,7 +10,7 @@ body{
 .navbar{
     display: flex;
     width: 100%;
-    height: 10vh;
+    height: 9vh;
     background-color: lightslategrey;
 }
 .wrapped{
@@ -24,11 +24,13 @@ body{
     background-color: #222;
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.5);
 }
-.nama{
+.brand{
     display:flex;
     flex-direction: row;
-    font-size: 1.5em;
-    padding: 10px;
+    font-size: 35px;
+    padding: 5px;
+    font-weight: bold;
+    color:#ff8ba7;
 }
 .navigation{
     display: flex;
@@ -45,40 +47,50 @@ body{
     text-decoration: none;
 }
 .navigation >li>a:hover{
-    color: crimson;
-    transition: all.3s ease-in-out;
+    color: #ff8ba7;
     -webkit-transition: all.3s ease-in-out;
     -moz-transition: all.3s ease-in-out;
     -ms-transition: all.3s ease-in-out;
     -o-transition: all.3s ease-in-out;
+    transition: all.3s ease-in-out;
 }
-.navigation >li>img{
-    width: 50px;
-    height: 50px;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-}
-.navigation >li>img:hover{
-    width: 65px;
-    height: 65px;
-    border-radius: 65px;
-    -webkit-border-radius: 65px;
-    -moz-border-radius: 65px;
-    -ms-border-radius: 65px;
-    -o-border-radius: 65px;
-}
+
 .active{
-    background-color: crimson;
+    background-color: #ff8ba7;
     color: white;
     padding: 15px;
 }
 .active:hover{
     color: white !important;
 }
+.about{
+    text-align: center;
+    width: 25%;
+    margin: 0 auto;
+    padding: 20px 0px 10px 0px;
+}
+.about>img{
+    height:50%;
+    width:50%;
+    padding: 20px 0px 0px 0px;
+}
+.button{
+    padding: 0px 0px 20px 0px;
+    text-align: center;
+}
+.button>a{
+    padding: 10px;
+    margin: 2px;
+    color: #222;
+    background-color: #ff8ba7;
+    border-radius: 10px;
+    text-decoration: none;
+}
 
+.button>a:hover{
+    color:#FFFFFF;
+    background-color: tomato;
+}
 #contact{
     background-color: #faeee7;
     padding: 20px 0px 20px 0px;
@@ -94,6 +106,12 @@ body{
     width: 25%;
     margin: 0 auto;
 }
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
 h3{
     font-family: sans-serif;
     font-weight: bold;
@@ -101,10 +119,12 @@ h3{
     margin-bottom: 10px;
     color:#33272a;
     width: 100%;
+    padding-bottom: none;
     line-height: 50px;
 }
 .footer-section>p{
     color:#594a4e;
+    text-align: left;
 }
 
 footer{
@@ -123,7 +143,7 @@ footer{
     padding: 6px 0;
     text-align: center;
 }
-.bottom p{
+.bottom>p{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
